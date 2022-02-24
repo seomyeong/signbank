@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body, h1, h2, ul,p { margin: 0; padding: 0; }
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+li { list-style: none; }
+html{overflow: hidden;}
+body { height: 100vh; position: relative;
+    background: url(https://mud-kage.kakao.com/dn/mrhPA/btqr6uUflSb/eRiP3axKnCvmkLkkRITIr0/image.jpg) no-repeat center / cover;
+  	font-family: 'Jua', sans-serif;
+}
+/*헤더*/
+#header { position: absolute; width: 100%; height: 130px; 
+        min-width: 1200px;
+        background: #041632;
+    }
+
+#header a {
+    display: block;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 300px;
+    height: 100%;
+    background: url(https://signbank.co.uk/wp-content/uploads/2020/04/logo-wht.png) no-repeat center/contain;
+    margin: 0 auto;
+}       
+/* 메인 */
+#form{
+    width: 100%;
+    height: 100vh;
+}
+#main { width: 100%; height: 100%;}
+#mainWrap { width: 1080px; margin: 0 auto; height: 100%; display: flex; align-items: center; justify-content: center;}
+#userInfo { padding-top: 145px; width: 55%; overflow: hidden;}
+#userInfo form{
+    margin: 25px 0;
+}
+#acct { padding-top: 160px; width: 45%; height: 600px; }
+#menu { padding-top: 60px; height: 400px; }
+#userInfo p{
+	margin: 10px 0;
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+#userInfo input { width: 360px; line-height: 45px; border-radius: 10px; border: none; padding: 10px;  font-family: 'Oswald', sans-serif;
+font-weight: 400; font-size: 23px;
+font-family: 'Jua', sans-serif;
+cursor: pointer;}
+
+#userInfo input:hover{
+    background-color: #FED63F;
+    color: #fff;
+}
+
+#countAcct p {
+	padding-bottom: 3px;
+	font-size: 28px;
+	color: #fff;
+}
+#logout{
+    margin-right: 15px;
+}
+
+#totalBalance {
+	width: 100%;
+	height: 70px;
+	padding-bottom: 2px; 
+	line-height: 75px;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	border-bottom: 3px solid #fff;
+}
+
+#balance, #acctype {
+	height: 45%;
+	display: flex;
+    justify-content: space-between;
+}
+#balance{
+    margin-bottom: 30px;
+}
+
+#balance li  {
+    width: 47%;
+}
+
+#balance li input{
+   font-family: 'Jua', sans-serif; font-size: 1.9em;
+   display: block;
+   width: 100%;
+   height: 100%;
+   background-color: #efefef;
+   border-radius: 15px;
+   border : none;
+   color: #000;
+   line-height: 180px; text-align: center;
+   cursor: pointer;
+}
+
+#balance li input:hover{
+    background-color: #FED63F;
+    color: #fff;
+}
+
+#acctype li{
+    width: 47%;
+}
+
+#acctype li a{
+   font-family: 'Jua', sans-serif; font-size: 1.9em;
+   display: block;
+   width: 100%;
+   height: 100%;
+   background-color: #efefef;
+   border-radius: 15px;
+   color: #000;
+   line-height: 180px; text-align: center;
+}
+#acctype li a:hover{
+    background-color: #FED63F;
+    color: #fff;
+}

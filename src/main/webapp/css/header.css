@@ -1,0 +1,6 @@
+/*헤더*/
+#header { position: absolute; width: 100%; height: 150px; 
+    border: solid 1px #000; min-width: 1200px;
+background: #041632; }
+#header h1 a { position: absolute; left: calc(50% - 200px); top: -23px; display: block; text-indent: -9999px; background: url(https://signbank.co.uk/wp-content/uploads/2020/04/logo-wht.png) no-repeat center / contain; width: 400px; height: 200px; 
+}       

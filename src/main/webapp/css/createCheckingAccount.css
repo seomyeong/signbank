@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body, h1, h2, ul,p { margin: 0; padding: 0; font-family: 'Jua', sans-serif;}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li { list-style: none; }
+html{overflow: hidden;}
+body { height: 100vh; position: relative;
+    background: url(https://mud-kage.kakao.com/dn/mrhPA/btqr6uUflSb/eRiP3axKnCvmkLkkRITIr0/image.jpg) no-repeat center / cover; 
+}
+/*헤더*/
+#header { position: absolute; width: 100%; height: 130px; 
+        min-width: 1200px;
+        background: #041632;
+        z-index: 9999;
+    }
+
+#header a {
+    display: block;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 300px;
+    height: 100px;
+    background: url(https://signbank.co.uk/wp-content/uploads/2020/04/logo-wht.png) no-repeat center/contain;
+    margin: 16px auto 0;
+}       
+/* 메인 */
+main{position: relative;}
+main h1{font-size: 50px; font-weight: lighter; color: #fff; padding-top: 190px; text-align: center;}
+
+
+/* #savingsWrap{
+    width: 630px;
+    height: 500px;
+    border:6px solid aliceblue;
+    background-color: rgba(185, 185, 185, 0.521);
+    position: absolute; top: 160px; left: calc( 50% - 290px );
+}
+#savingsWrap p{font-size: 40px; text-align: center; margin-top: 30px; }
+#savingsWrap table{text-align: center; margin: 130px auto;}
+#savingsWrap td input{margin-left: 20px;}
+#savingsWrap th{font-size: 40px;}
+#id input{width: 190px; height: 30px; border-radius: 5px;} */
+
+
+/*예금2*/
+#savingsWrap2{
+    width: 800px; height: 500px; margin: 0 auto;
+
+}
+h2{font-weight: lighter; width: 450px; line-height: 40px; background: #fff;
+color: #000; border-radius: 5px; margin: 0 auto 10px; box-shadow: 5px 5px #95d5ff;}
+
+
+
+#savingsWrapTxt{
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+#savingsWrapTxt span{color: #fff9a3;}
+
+
+#savingsWrapDiv{width: 250px; font-size: 15px; text-align: center; color: rgb(26, 26, 26); margin: 0 auto;}
+#savingsWrapDiv>div{width: 110px; height: 20px; background: rgb(199, 199, 199); border-radius: 3px;
+float: left; margin-right: 10px; margin-top: 10px;}
+
+#initBalance{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin: 70px auto;
+    border:6px solid aliceblue;
+    background-color: rgba(185, 185, 185, 0.521);
+    
+}
+#initBalance p{margin-left: 55px; line-height: 100px; float: left; font-size: 40px; color: rgb(0, 0, 0);}
+#balance {
+	display: block;
+	width: 200px;
+	height: 30px;
+	position: absolute; top: 30px; left: calc(50% - 60px);
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+/*개설*/
+#savingsSubmit{display: block;
+    width: 80px;
+    line-height: 30px; text-align: center;
+    font-family: 'Jua', sans-serif;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700; font-size: 17px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute; top: 30px; right: 45px;
+    box-sizing: border-box;}
+
+
+
+/*goInto*/
+#goInto{position: relative;}
+#goInto>a{display: block; width: 380px; line-height: 50px; text-align: center;
+    border: none; border-radius: 8px; font-weight: 700; font-size: 17px;
+    background-color: #3274dd; color: #fff; margin: 0 auto;
+    cursor: pointer; box-sizing: border-box; 
+}

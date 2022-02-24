@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* 초기화 */
+html, body, h1, input, span, h2, h3 {
+    margin: 0; padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px; font-weight: 700;
+}
+.hidden {
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: url(https://mud-kage.kakao.com/dn/bqHGZF/btqr070Wh4l/gVVS42D25sSwYjbUVkYgy1/image.jpg)
+                no-repeat
+                center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 메인 */
+#deleteWrap {
+    width: 630px;
+    height: 500px;
+    border:6px solid aliceblue;
+    background-color: rgba(185, 185, 185, 0.521);
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    
+}
+
+
+h1 {
+	height: 50px;
+	margin-top: 190px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+p {
+	font-size: 18px;
+}
+
+#home{
+    display: block;
+	width: 380px;
+	margin: 26px auto;
+	height: 53px;
+	line-height: 57px;
+	text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700; font-size: 17px;
+    font-family: 'Jua', sans-serif;
+    color: #fff;
+    background-color: #3274dd;
+    cursor: pointer;
+    box-sizing: border-box;
+}

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+html, body, h1, input, span,h2, h3{
+    margin: 0; padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px; font-weight: 700;
+}
+.hidden{
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: url(https://mud-kage.kakao.com/dn/bqHGZF/btqr070Wh4l/gVVS42D25sSwYjbUVkYgy1/image.jpg)
+                no-repeat
+                center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#errorWrap{
+    width: 630px;
+    height: 500px;
+    border:6px solid aliceblue;
+    background-color: rgba(185, 185, 185, 0.521);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{ font-family: 'Jua', sans-serif;}
+h2{
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+
+}
+
+#errorWrap h1{
+    height: 50px;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+ul{margin: 0; padding: 0;  
+    margin-top: 80px;
+    padding-left: 130px;
+    font-family: 'Jua', sans-serif;
+
+}
+li{
+    list-style: none;
+    font-weight: 700;
+    margin-left: 50px;
+    font-size: 23px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#home{
+    display: block;
+	width: 380px;
+	margin: 26px auto;
+	height: 53px;
+	line-height: 57px;
+	text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700; font-size: 17px;
+    font-family: 'Jua', sans-serif;
+    color: #fff;
+    background-color: #3274dd;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+li span{
+    display: block;
+    width: 150px;
+}

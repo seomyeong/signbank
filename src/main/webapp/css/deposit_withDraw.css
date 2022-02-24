@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap')
+	;
+
+/* 초기화 */
+body, h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	position: relative;
+	height: 100vh;
+	font-family: 'Jua', sans-serif;
+	background:
+		url(https://mud-kage.kakao.com/dn/mrhPA/btqr6uUflSb/eRiP3axKnCvmkLkkRITIr0/image.jpg)
+		no-repeat center/cover;
+	overflow: hidden;
+}
+
+/*헤더*/
+#header {
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	min-width: 1200px;
+	background: #041632;
+}
+
+#header a {
+	display: block;
+	overflow: hidden;
+	text-indent: -999px;
+	width: 300px;
+	height: 100%;
+	background:
+		url(https://signbank.co.uk/wp-content/uploads/2020/04/logo-wht.png)
+		no-repeat center/contain;
+	margin: 0 auto;
+}
+
+/* 메인 */
+#main {
+	width: 100%;
+	height: 100%;
+	padding-top: 150px;
+}
+
+#accountInfoWrap {
+	margin: 30px auto 0;
+	width: 780px;
+	border: 6px solid aliceblue;
+	background-color: rgba(185, 185, 185, 0.521);
+	font-size: 20px;
+}
+
+#accountInfoWrap h1 {
+	height: 50px;
+	padding: 30px 0 20px;
+	text-align: center;
+}
+
+#accountInfoWrap>p {
+	text-align: center;
+}
+
+#accountInfo {
+	position: relative;
+	height: 300px; overflow : auto; padding : 20px 30px;
+	line-height: 50px;
+	padding: 20px 30px;
+	overflow: auto;
+}
+
+table {
+	width: 100%;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+}
+
+tr, td {
+	border-bottom: 1px solid #444444;
+	padding: 0px;
+	text-align: center;
+}
+
+#depositWrap, #withDrawWrap {
+	top: 380px;
+	left: calc(50% - 300px);
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	margin: 30px auto;
+	border: 6px solid aliceblue;
+	background-color: rgba(185, 185, 185, 0.521);
+}
+
+#deposit, #withDraw {
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 30px 0 0;
+}
+
+#depositSubmit, #withDrawSubmit {
+	width: 80px;
+	line-height: 32px;
+	text-align: center;
+	font-family: 'Jua', sans-serif;
+	border: none;
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 17px;
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+
+#depositWrap p, #withDrawWrap p {
+	margin: 0 0 0 55px;
+	line-height: 100px;
+	float: left;
+	font-size: 40px;
+	color: rgb(0, 0, 0);
+}
+
+#goInto a {
+	display: block;
+	width: 380px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 17px;
+	border: none;
+	background-color: #3274dd;
+	color: #fff;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 0px auto;
+}
+
+/* #accountInfoWrap a:hover {
+    background-color: #FED63F;
+    color: #fff;
+} */
